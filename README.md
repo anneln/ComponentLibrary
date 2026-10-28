@@ -22,9 +22,9 @@ Each component is shown in a gallery that displays all its variants:
 - Reusable gallery to display every variant of a component
 - Testimonials layout on a 4-column CSS grid
 - Photo that overflows its block, without JavaScript
-- Responsive: switches to a single column on mobile
+- Responsive: testimonials switch from a 4-column grid to a single column on mobile, banners stack their columns, and the photo adapts to the screen width
 - SVG icons imported as React components
-- Accessible markup: named regions, decorative icons hidden, screen reader labels where color carries meaning
+- Accessible markup: decorative icons hidden, screen reader labels where color carries meaning
 
 ## Usage
 
@@ -52,6 +52,7 @@ For custom content, pass your own children:
 - **React** (functional components, props, children)
 - **Vite** with SVG imports as components (`?react`)
 - **Hand-written CSS** (grid and flexbox)
+- **Netlify** for deployment
 
 ## What I Learned
 

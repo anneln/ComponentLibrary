@@ -338,13 +338,25 @@ h4 {
   padding: 0 1.8rem 1.8rem;
 }
 
+.card-hover {
+  transition: transform 0.35s ease-in-out;
+  cursor: pointer;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+}
+
 .hover-text {
   position: absolute;
-  top: -2.1rem;
-  right: -4rem;
+  top: -0.9rem;
+  right: -3.5rem;
   transform: translateY(-50%) rotate(50deg);
   pointer-events: none;
   white-space: nowrap;
+  color: #5e5d5d;
+  font-family: "Permanent Marker";
+  font-size: 1.25rem;
 }
 
 /*Testimonials*/
@@ -352,6 +364,10 @@ h4 {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+
+#testimonials-title {
+  margin-bottom: 6rem;
 }
 
 .testimonial-grid {
@@ -476,6 +492,7 @@ h4 {
   height: 200px;
   object-fit: cover;
   object-position: top;
+  min-height: 50%;
 }
 
 .testimonial-card.with-pic-vertical .testimonial-logo {
@@ -559,6 +576,10 @@ h4 {
   .banner-header {
     display: none;
   }
+  .hover-text {
+    top: 2.5rem;
+    right: 1rem;
+  }
   .testimonial-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -598,5 +619,19 @@ h4 {
     height: 300px;
     object-fit: cover;
     object-position: top;
+  }
+}
+
+@media (max-width: 480px) {
+  .hover-text {
+    right: auto;
+    left: 50%;
+    top: 3rem;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  .testimonial-card.with-pic-horizontal .testimonial-content,
+  .testimonial-card.with-pic-vertical .testimonial-content {
+    margin: 10rem 0;
   }
 }

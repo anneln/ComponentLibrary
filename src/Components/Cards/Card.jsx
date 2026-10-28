@@ -20,7 +20,7 @@ export default function Card({
         <div className="card card-hover">
           <Card.Icon icon={icon} bgColor={iconBgColor} />
           {children}
-          <h4 className="hover-text">Hover</h4>
+          <span className="hover-text">Hover</span>
         </div>
       </div>
     </section>
