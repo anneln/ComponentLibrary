@@ -61,7 +61,3 @@ For custom content, pass your own children:
 - **CSS Grid and Flexbox**: placing items on a 4 × 6 grid, and taking an element out of its flow (`position: absolute`, negative margin)
 - **Accessibility**: `aria-labelledby`, `aria-hidden`, `role="img"`, `sr-only` text when color carries meaning
 - **Debugging**: a component that renders nothing may have received a function instead of a JSX element
-
-## Footer
-
-Project built as part of my React learning journey.
