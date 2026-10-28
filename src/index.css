@@ -372,6 +372,15 @@ h4 {
   margin-bottom: 6rem;
 }
 
+.testimonials-name {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.testimonials-cie {
+  margin-top: 0;
+}
+
 .testimonial-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
