@@ -375,6 +375,7 @@ h4 {
 .testimonials-name {
   font-weight: 700;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .testimonials-cie {
@@ -412,7 +413,7 @@ h4 {
   color: #2545b8;
   font-weight: bold;
   font-size: 1.2rem;
-  margin-top: 7px;
+  margin-top: -3px;
 }
 
 .testimonial-card.with-pic-horizontal .testimonial-content,
