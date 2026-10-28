@@ -34,7 +34,7 @@ body > * {
 }
 
 .container {
-  padding: 1rem;
+  padding: 1rem 7rem;
 }
 
 h2,
@@ -558,6 +558,9 @@ h4 {
 }
 
 @media (max-width: 720px) {
+  .container {
+    padding: 1rem;
+  }
   h1 {
     font-size: 36px;
     margin: 20px 0;
